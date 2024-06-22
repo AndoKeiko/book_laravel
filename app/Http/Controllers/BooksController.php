@@ -3,6 +3,7 @@ namespace GoogleBooksSample\Http\Controllers;
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Foundation\Http\FormRequest;
 
 //Clientクラスを使用する
 use GuzzleHttp\Client;
