@@ -5,6 +5,7 @@
 @section('content')
 <h1>PHP/LaravelでGoogle books apiを使うサンプル</h1>
         <form action="/" method="get">
+        @csrf
             書籍名:<input type="text" name="keyword" size="50" value="{{ $keyword }}">&nbsp;<input type="submit" value="検索">
         </form>
  
